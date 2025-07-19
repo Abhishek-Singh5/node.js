@@ -1,0 +1,16 @@
+
+ 1752925031133 : ::1 GET : /
+ 1752925032621 : ::1 GET : /
+ 1752925378628 : ::1 GET : /api/users
+ 1752925511341 : ::1 POST : /api/users
+ 1752925560538 : ::1 POST : /api/users
+ 1752925575431 : ::1 GET : /api/users
+ 1752925589873 : ::1 GET : /api/users
+ 1752925626746 : ::1 POST : /api/users
+ 1752925630244 : ::1 GET : /api/users
+ 1752925669123 : ::1 DELETE : /api/users/687b85ba7160272097f09952
+ 1752925674517 : ::1 GET : /api/users
+ 1752925693765 : ::1 GET : /api/users
+ 1752925732277 : ::1 PATCH : /api/users/687b85787160272097f0994e
+ 1752925737892 : ::1 GET : /api/users
+ 1752925749205 : ::1 GET : /api/users
