@@ -70,7 +70,7 @@ short-url/
 
 ```bash
 # Clone Repo
-git clone https://github.com/your-username/url-shortener
+git clone https://github.com/Abhishek-Singh5/node.js/short_Url
 
 # Navigate into folder
 cd url-shortener
@@ -94,11 +94,6 @@ MONGO_URL=mongodb://localhost:27017/short-url
 ```
 
 ---
-
-## 📸 Screenshot
-
-> Home UI with URL form and analytics table
-> [Add your screenshot here]
 
 ---
 
