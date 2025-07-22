@@ -73,7 +73,7 @@ short-url/
 git clone https://github.com/Abhishek-Singh5/node.js/short_Url
 
 # Navigate into folder
-cd url-shortener
+cd short_Url
 
 # Install dependencies
 npm install
