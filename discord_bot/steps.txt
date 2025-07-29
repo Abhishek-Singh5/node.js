@@ -1,0 +1,8 @@
+Step-1 -->  Make your own server on Discord plateform.
+Step-2 -->  Go to the Setting then advanced options and turn on the Developer mode.
+Step-3 -->  then go to the discord developer portal -> https://discord.com/developers/docs/quick-start/getting-started
+Step-4 -->  then go to applications options then create new applications and tick options administartor
+Step-5 -->  then go to OAuth2 and tick options bot and administrator and copy the Generated URL
+Step-6 -->  then search on the google and give permission and authenticate your server.
+Step-7-->   then go to your server and you got the message from the bot.
+Step-7-->   then install your VSCODE terminal npm install discord.js
