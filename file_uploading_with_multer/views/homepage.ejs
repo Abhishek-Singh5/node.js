@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>File Upload</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e4f0ae;
+      padding: 40px;
+      text-align: center;
+    }
+
+    form {
+      background: rgb(174, 230, 178);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    input[type="file"] {
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #e22007;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+
+    img {
+      margin-top: 20px;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 >Upload Your Files</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label>Select Profile Image:</label><br />
+    <input type="file" name="profileImage"  /><br />
+
+    <label>Select Cover Image:</label><br />
+    <input type="file" name="coverImage"  /><br />
+
+    <button type="submit">Upload</button>
+  </form>
+
+<% if (typeof profileImage !== 'undefined' && profileImage) { %>
+  <h2>Uploaded Profile Image:</h2>
+  <img src="/<%= profileImage %>" alt="Profile Image" />
+<% } %>
+
+<% if (typeof coverImage !== 'undefined' && coverImage) { %>
+  <h2>Uploaded Cover Image:</h2>
+  <img src="/<%= coverImage %>" alt="Cover Image" />
+<% } %>
+
+</body>
+</html>
